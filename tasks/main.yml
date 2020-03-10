@@ -1,7 +1,4 @@
 ---
-- debug:
-    var: rh_satellite_managed_host_molecule_dummy
-
 - name: Check if host is already registered
   uri:
     url: https://{{ rh_satellite_managed_host_satellite_server_fqdn }}/api/hosts/{{ ansible_fqdn }}
