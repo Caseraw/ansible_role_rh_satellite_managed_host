@@ -2,7 +2,7 @@
 
 Manage membership of managed host for Red Hat Satellite.
 
-_Please keep in mind, the current ansible-lint warnings can be ignored. The current tasks are made idempotent by working around them with conditionals based on a API call to the Red Hat Satellite server._
+_Please keep in mind, the current ansible-lint warnings can be ignored. The tasks are made idempotent by working around them with conditionals based on an API call to the Red Hat Satellite server._
 
 [![Build Status](https://travis-ci.org/Caseraw/ansible_role_rh_satellite_managed_host.svg?branch=master)](https://travis-ci.org/Caseraw/ansible_role_rh_satellite_managed_host) [<img src="https://img.shields.io/ansible/role/47149">](https://galaxy.ansible.com/caseraw/ansible_role_rh_satellite_managed_host) [<img src="https://img.shields.io/ansible/role/d/47149">](https://galaxy.ansible.com/caseraw/ansible_role_rh_satellite_managed_host) [<img src="https://img.shields.io/ansible/quality/47149">](https://galaxy.ansible.com/caseraw/ansible_role_rh_satellite_managed_host)
 
