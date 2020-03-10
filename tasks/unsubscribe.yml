@@ -3,6 +3,7 @@
   command: insights-client --unregister
   args:
     warn: False
+  changed_when: False
   notify: stop_disable_insights
 
 - name: Unsubscribe from Red Hat Satellite if required
@@ -18,6 +19,7 @@
   args:
     warn: False
   failed_when: False
+  changed_when: False
   when: rh_satellite_managed_host_unsubscribe_register.changed
 
 - name: Remove content host from Satellite

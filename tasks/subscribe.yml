@@ -25,6 +25,7 @@
   command: subscription-manager repos --enable='*'
   args:
     warn: False
+  changed_when: False
 
 - name: Install required packages
   yum:
@@ -50,5 +51,8 @@
 
 - name: Katello tracer upload
   command: katello-tracer-upload
+  args:
+    warn: False
+  changed_when: False
 
 ...
